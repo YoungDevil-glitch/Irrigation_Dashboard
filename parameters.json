@@ -1,0 +1,55 @@
+{
+	"Ra0":{
+		"type":"number",
+		"value":1366.1,
+		"unit":"W/m",
+		"min": 1364,
+		"max": 1367,
+		"step": 0.1
+	},
+	"Ra_constant":{
+		"type":"number",
+		"value":0.33,
+		"unit":"",
+		"min": 0,
+		"max": 1,
+		"step": 0.01
+	},
+	"Etp_reducer":{
+		"type":"number",
+		"value":0.0023,
+		"unit":"mm/j",
+		"min": 0,
+		"max": 0.01,
+		"step": 0.0001
+	},
+	"Etp_intercept":{
+		"type":"number",
+		"value":17.8,
+		"unit":"",
+		"min": 15,
+		"max": 20,
+		"step": 0.1
+	},
+	"Etp_conversion":{
+		"type":"number",
+		"value":0.034991423670669,
+		"unit":"j/w",
+		"min": 0.034991423670669,
+		"max": 0.034991423670669,
+		"step": 0
+	},
+	"Percolation":{
+		"type":"number",
+		"value":0.01,
+		"unit":"",
+		"min": 0.00,
+		"max": 0.5,
+		"step": 0.01
+	},
+	"Semis":{
+		"type":"text",
+		"value":"2020-08-10",
+		"unit":""
+	}
+}
